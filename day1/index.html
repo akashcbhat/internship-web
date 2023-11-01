@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>survey-form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"></link>
+  </head>
+  <body>
+    <h1 id="title">Cricket Survey Form</h1>
+    <p id="description">Please consider filling out this form</p>
+    <form id="survey-form" method="post" action="">
+      <label id="name-label" for="name">Name:<input type="text" placeholder="Enter name" required id="name"/></label>
+      <label id="email-label" for="email">Email:<input placeholder="Enter email-id" required type="email" id="email"/></label>
+      <label id="number-label" for="number">Age:<input required placeholder="Enter Age" min="5" max="100" type="number" id="number"/></label>
+      
+      <p>Select your gender</p>
+      <label for="male"><input id="male" type="radio" name="radio-group" checked value="male" class="inline"/>Male</label>
+       <label for="female"><input id="female" value="female" type="radio" name="radio-group" class="inline"/>Female</label>
+      </label>
+      <p>Do you watch cricket?</p>
+        <select id="dropdown">
+          <option>(Select opton)</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      <p>Select your favourite cricket Players</p>
+      <label for="vk">
+        <input class="inline" id="vk" type="checkbox" name="terms-and-conditions" value="viratkohli" checked/> Virat Kohli
+      </label>
+      <label for="msd">
+        <input class="inline" id="msd" value="msdhoni" type="checkbox" name="terms-and-conditions" /> MS Dhoni
+      </label>
+      <label for="sachin">
+        <input class="inline" id="sachin" value="sachin" type="checkbox" name="terms-and-conditions" /> Sachin Tendulkar
+      </label>
+      <p>Addition Comments?(If any)</p>
+        <textarea id="textarea"  rows="3" cols="30" placeholder="I love cricket...">
+        </textarea>
+      <input type="submit" value="submit" id="submit"/>
+    </form>
+  </body>
+</html>
