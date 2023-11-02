@@ -1,6 +1,8 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    text-align: justify;
+    text-justify: inter-word;
   }
   
   body {
@@ -83,7 +85,7 @@ html {
   
     #main-doc {
       position: absolute;
-      top: 30%;
+      top: 25%;
       left: 0;
     }
   
