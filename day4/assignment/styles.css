@@ -1,0 +1,179 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *{
+    scroll-behavior: smooth;
+  }
+ 
+  body {
+    background-color: #f2f2f2;
+    font-family: Poppins, sans-serif;
+  }
+  .features{
+    margin: 20 auto;
+  }
+  #header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #header-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  #nav-bar {
+    margin-top: 20px;
+  }
+  
+  .nav-link:hover{
+    background-color: rgb(74, 74, 74)
+  }
+
+  .nav-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  ul li{
+    list-style-type: none;
+   
+  }
+  .card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .main-text {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .sub-text {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  #working{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 10%;
+  }
+
+  .main-section {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submission {
+    text-align: center;
+  }
+  
+  #form {
+    display: inline-block;
+  }
+  
+  .first_line {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 1%;
+  }
+  
+  #email {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #submit {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .features {
+    margin-top: 20px;
+  }
+  
+  .main-text {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .sub-text {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  #video{
+        align-items: center;
+        width: 100%; /* Set the width to 100% to make it responsive */
+        height: 500px; /* Increase the height for a larger video */
+        max-width: none; /* Remove the maximum width constraint */
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  footer a:hover{
+    background-color: rgb(74, 74, 74)
+  }
+  
+  
+  
+  footer p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  
+  
+  @media (max-width: 768px) {
+    #nav-bar {
+      text-align: center;
+    }
+    .nav-link {
+      display: block;
+      margin: 10px 0;
+    }
+    #email, #submit {
+      width: 100%;
+    }
+    #video {
+        width: 100%; /* Set the width to 100% to make it responsive */
+        height: 100%; /* Adjust the height for mobile */
+        max-width: none; /* Remove the maximum width constraint */
+    }
+  }
+  
